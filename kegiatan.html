@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kegiatan - KARANG TARUNA TUNAS MUDA</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#f8f9fa}
+nav{background:#D32F2F; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:999}
+nav .logo{display:flex; align-items:center; gap:10px; color:white; font-weight:bold; font-size:16px}
+nav .logo img{width:40px; height:40px; border-radius:50%; background:white; padding:3px; object-fit:cover}
+nav .menu a{color:white; margin:0 8px; text-decoration:none; font-weight:bold; font-size:14px}
+nav .menu a:hover{border-bottom:2px solid white}
+h2{color:#D32F2F;text-align:center;margin:20px 0}
+.card{background:white;padding:20px;margin:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+
+/* INI YANG DIPERBAIKI */
+.card img{
+  width:100%;
+  height:auto; /* tinggi ngikutin gambar asli */
+  max-height:220px; /* maksimal 220px biar gak kepanjangan */
+  object-fit:contain; /* gambar tidak kepotong */
+  background:#f1f1f1; /* kasih background abu2 kalau ada ruang kosong */
+  border-radius:8px;
+  margin-top:10px;
+  padding:10px; /* kasih jarak biar gak mepet */
+}
+
+.link-kegiatan{display:block; text-decoration:none; color:#333; margin-bottom:15px; padding:10px; border-radius:8px}
+.link-kegiatan:hover{background:#f1f1f1}
+/* FOOTER */
+footer{background:#222; color:white; padding:30px 20px; margin-top:30px}
+.footer-content{display:flex; flex-wrap:wrap; justify-content:space-around; gap:20px; text-align:left}
+.footer-col h4{margin-bottom:10px; color:#D32F2F}
+.sosmed a{display:inline-block; margin-right:10px}
+.sosmed img{width:35px; height:35px; transition:0.3s}
+.sosmed img:hover{transform:scale(1.1)}
+.copyright{text-align:center; margin-top:20px; border-top:1px solid #444; padding-top:10px; font-size:14px}
+@media(max-width:600px){nav .menu a{font-size:12px; margin:0 4px} .footer-content{text-align:center}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo"><img src="logo.jpg" alt="Logo"><span>TUNAS MUDA</span></div>
+  <div class="menu">
+    <a href="index.html">Beranda</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="berita.html">Pengumuman</a>
+  </div>
+</nav>
+
+<h2>KEGIATAN & PROGRAM KERJA</h2>
+
+<div class="card">
+  <h3>Kegiatan Rutin</h3>
+
+  <a href="kerja.html" class="link-kegiatan">
+    <p><b>Kerja Bakti</b><br>Kerja Bakti</p>
+    <img src="kerja bakti.jpeg" alt="kerja bakti">
+  </a>
+
+  <a href="olahraga.html" class="link-kegiatan">
+    <p><b>Olahraga</b><br>Kegiatan Olahraga</p>
+    <img src="olahraga.jpeg" alt="Baksos">
+  </a>
+</div>
+
+<div class="card">
+  <h3>Kegiatan Tahunan</h3>
+
+  <a href="17-agustus.html" class="link-kegiatan">
+    <p><b>17 Agustus 2026</b><br>Memperingati HUT RI Ke-81 2026</p>
+    <img src="81.png" alt="17 Agustus">
+  </a>
+
+  <a href="17-agustus2025.html" class="link-kegiatan">
+    <p><b>17 Agustus 2025</b><br>Memperingati HUT RI Ke-80 2025</p>
+    <img src="80.jpeg" alt="17 Agustus">
+  </a>
+
+  <a href="santunan.html" class="link-kegiatan">
+    <p><b>Malam Silaturasa</b><br>Kegiatan Bakti Sosial</p>
+    <img src="malam.jpeg" alt="Baksos">
+  </a>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-col">
+      <h4>KARANG TARUNA TUNAS MUDA</h4>
+      <p>Sekretariat KP.Bakung RT 002 RW 001<br>KEC.Balaraja, KAB.Tangerang, Banten</p>
+    </div>
+    <div class="footer-col">
+      <h4>HUBUNGI KAMI</h4>
+      <p>WA: 0857-7369-9165</p>
+      <div class="sosmed">
+        <a href="https://wa.me/6285773699165" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+        <a href="https://instagram.com/NAMA_IG_KAMU" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+        <a href="https://tiktok.com/@NAMA_TIKTOK_KAMU" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok"></a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© 2026 Karang Taruna Tunas Muda. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>

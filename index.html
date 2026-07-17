@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda - KARANG TARUNA TUNAS MUDA</title>
+<style>
+*{margin:0; padding:0; box-sizing:border-box; font-family:'Arial'}
+body{background:#f8f9fa; color:#333}
+nav{background:#D32F2F; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:999}
+nav .logo{display:flex; align-items:center; gap:10px; color:white; font-weight:bold; font-size:16px}
+nav .logo img{width:40px; height:40px; border-radius:50%; background:white; padding:3px; object-fit:cover}
+nav .menu a{color:white; margin:0 8px; text-decoration:none; font-weight:bold; font-size:14px}
+nav .menu a:hover{border-bottom:2px solid white}
+.hero{background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('tmm.jpg') center/cover no-repeat; color:white; text-align:center; padding:100px 20px; min-height:300px;}
+.hero h1{font-size:32px; margin-bottom:10px; text-shadow:2px 2px 4px #000}
+.card{background:white; padding:20px; margin:20px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+h2{color:#D32F2F; text-align:center; margin-bottom:15px}
+.btn{display:block; width:90%; margin:10px auto; padding:12px; background:#D32F2F; color:white; text-align:center; border-radius:8px; text-decoration:none; font-weight:bold}
+iframe{width:100%; height:250px; border:0; border-radius:12px; margin-top:10px}
+/* FOOTER BARU */
+footer{background:#222; color:white; padding:30px 20px; margin-top:30px}
+.footer-content{display:flex; flex-wrap:wrap; justify-content:space-around; gap:20px; text-align:left}
+.footer-col h4{margin-bottom:10px; color:#D32F2F}
+.sosmed a{display:inline-block; margin-right:10px}
+.sosmed img{width:35px; height:35px; transition:0.3s}
+.sosmed img:hover{transform:scale(1.1)}
+.copyright{text-align:center; margin-top:20px; border-top:1px solid #444; padding-top:10px; font-size:14px}
+@media(max-width:600px){nav .menu a{font-size:12px; margin:0 4px} .hero h1{font-size:24px} .footer-content{text-align:center}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <img src="logo.jpg" alt="Logo">
+    <span>TUNAS MUDA</span>
+  </div>
+  <div class="menu">
+    <a href="index.html">Beranda</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="berita.html">Pengumuman</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>KARANG TARUNA TUNAS MUDA</h1>
+  <p>Kreativitas Tanpa Batas</p>
+</div>
+
+<div class="card">
+<h2>TENTANG KAMI</h2>
+<p><b>Sejarah:</b> Tunas Muda adalah sebuah Organisasi kepemudaan KP.Bakung RT.002 RW.001 KEC.Balaraja, KAB.Tangerang, Banten. Berdiri pada tahun 2001 di KP.Bakung. Awalnya hanya 3 pemuda, sekarang sudah 26 anggota aktif.</p><br>
+<p><b>Visi:</b> Menjadi organisasi pemuda yg aktif, kreatif, dan bermanfaat bagi masyarakat.</p><br>
+<p><b>Misi:</b> 1. Kegiatan Sosial 2. Olahraga & Seni 3. Pemberdayaan Pemuda</p><br>
+<p><b>Alamat:</b> Sekretariat KP.Bakung RT 002 RW 001, KEC.Balaraja, KAB.Tangerang, Banten</p>
+<p><b>Kontak:</b> 0857-7369-9165</p>
+
+<!-- GOOGLE MAPS -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521!2d106.4!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJTIDEwNsKwMjQnMDAuMCJF!5e0!3m2!1sid!2sid!4v0" allowfullscreen="" loading="lazy"></iframe>
+<p style="font-size:12px; text-align:center; margin-top:5px">*Ganti link maps di atas dengan link sekretariat kamu yg bener</p>
+</div>
+
+<a href="struktur.html" class="btn">Lihat Struktur Pengurus</a>
+<a href="kegiatan.html" class="btn">Lihat Kegiatan</a>
+
+<!-- FOOTER BARU DENGAN SOSMED -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-col">
+      <h4>KARANG TARUNA TUNAS MUDA</h4>
+      <p>Sekretariat KP.Bakung RT 002 RW 001<br>KEC.Balaraja, KAB.Tangerang, Banten</p>
+    </div>
+    <div class="footer-col">
+      <h4>HUBUNGI KAMI</h4>
+      <p>WA: 0857-7369-9165</p>
+      <div class="sosmed">
+        <!-- 1. WHATSAPP - Klik langsung chat -->
+        <a href="https://wa.me/6285773699165" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+        <!-- 2. INSTAGRAM - Ganti username -->
+        <a href="https://instagram.com/tunasmuda_bakung" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+        </a>
+        <!-- 3. TIKTOK - Ganti username -->
+        <a href="https://tiktok.com/@karangtaruna_kp.b" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    tunasmudabkg2001@gmail.com
+  </div>
+</footer>
+
+</body>
+</html>
